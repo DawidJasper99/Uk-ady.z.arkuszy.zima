@@ -12,21 +12,27 @@
             display: flex;
             flex-direction: column;
             height: 800px;
+            width: 99vw;
         }
-        header,nav,main,footer{
-            border: 2px solid black;
-        }
-        header{
-            height: 30%;
-        }
-        nav{
+        header, .blok, #napis, footer{
+            border: 2px black solid;
             height: 15%;
         }
-        main{
-            height: 60%;
+        #container{
+            display: flex;
+            height: 100%;
         }
-        footer{
-            height: 20%;
+        #Blok1{
+            width: 25%;
+            height: 100%;
+        }
+        #Blok2{
+            width: 40%;
+            height: 100%;
+        }
+        #Blok3{
+            width: 35%;
+            height: 100%;
         }
         a{
             width: 20%;
@@ -46,14 +52,22 @@
     <header>
         Blok nagłówkowy
     </header>
-    <nav>
-        Blok menu
-    </nav>
-    <main>
-        Blok główny
-    </main>
+    <section id="napis">
+        Blok napisu
+    </section>
+    <section id="container">   
+        <section class="blok" id="Blok1">
+            Blok 1
+        </section>
+        <section class="blok" id="Blok2">
+            Blok 2
+        </section>
+        <section class="blok" id="Blok3">
+            Blok 3
+        </section>
+    </section>    
     <footer>
-        Blok Stopki
+        Blok stopki
     </footer>
     <a href="index.html">Powrót</a>
 </body>

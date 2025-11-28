@@ -12,21 +12,26 @@
             display: flex;
             flex-direction: column;
             height: 800px;
+            width: 99vw;
         }
-        header,nav,main,footer{
-            border: 2px solid black;
+        header, nav, main, footer{
+            border: 2px black solid;
+        }
+        main{
+            width: 70%;
+        }
+        nav{
+            width: 30%;
+        }
+        #mainContainer{
+            height: 800px;
+        }
+        #srodek{
+            display: flex;
+            height: 60%;
         }
         header{
             height: 30%;
-        }
-        nav{
-            height: 15%;
-        }
-        main{
-            height: 60%;
-        }
-        footer{
-            height: 20%;
         }
         a{
             width: 20%;
@@ -43,18 +48,22 @@
     </style>
 </head>
 <body>
-    <header>
-        Blok nagłówkowy
-    </header>
-    <nav>
-        Blok menu
-    </nav>
-    <main>
-        Blok główny
-    </main>
-    <footer>
-        Blok Stopki
-    </footer>
+    <section id="mainContainer">
+        <header>
+            Blok nagłówkowy
+        </header>
+        <section id="srodek">
+            <nav>
+                Blok menu
+            </nav>
+            <main>
+                Blok Główny
+            </main>
+        </section>
+        <footer>
+            Blok stopki
+        </footer>
+    </section>
     <a href="index.html">Powrót</a>
 </body>
 </html>
