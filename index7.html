@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-size: 60px;
+            font-family: helvetica;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            height: 800px;
+        }
+        a{
+            width: 20%;
+            height: 8%;
+            background-color: lightgrey;
+            border-radius: 15px;
+            border: 2px black solid;
+            text-decoration: none;
+            transition: all 0.5s;
+        }
+        a:hover{
+            border-radius: 35px;
+        }
+        header,#lewy,#prawy{
+            border: 2px black solid;
+            height: 170px;
+        }
+        main{
+            display: flex;
+        }
+        #lewy,#prawy{
+            width: 50vw;
+            height: 600px;
+        }
+    </style>
+</head>
+<body>
+    <content>
+        <header>
+            Blok nagłówkowy
+        </header>
+        <main>
+            <section id="lewy">
+                Blok lewy
+            </section>
+            <section id="prawy">
+                Blok prawy
+            </section>
+        </main>
+    </content>
+    <a href="index.html">Powrót</a>
+</body>
+</html>
