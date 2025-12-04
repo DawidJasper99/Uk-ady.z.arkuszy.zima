@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-size: 60px;
+            font-family: georgia;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            height: 800px;
+            display: flex;
+            flex-direction: column;
+        }
+        a{
+            width: 20%;
+            height: 8%;
+            background-color: lightgrey;
+            border-radius: 15px;
+            border: 2px black solid;
+            text-decoration: none;
+            transition: all 0.5s;
+        }
+        a:hover{
+            border-radius: 35px;
+        }
+        header,nav,#lewa,#prawa,footer{
+            border: 2px black solid;
+            padding: 8.5px;
+        }
+        #lewa{
+            height: 650px;
+            width: 30%;
+        }
+        #prawa{
+            height: 650px;
+            width: 70%;
+        }
+        main{
+            display: flex;
+            flex-direction: row;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Blok nagłówkowy
+    </header>
+    <nav>
+        Blok nawigacyjny
+    </nav>
+    <main>
+        <section id="lewa">
+            Blok lewy
+        </section>
+        <section id="prawa">
+            Blok prawy
+        </section>
+    </main>
+    <footer>
+        Blok stopki
+    </footer>
+    <a href="index.html">Powrót</a>
+</body>
+</html>
